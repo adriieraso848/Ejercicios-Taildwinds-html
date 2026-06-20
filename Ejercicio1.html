@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="src/output.css">
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="flex max-w-5xl w-full gap-16 p-8">
+        <div class="flex-1 flex flex-col justify-center">
+
+            <h1 class="text-5xl font-extrabold text-gray-900 leading-tight">
+                Formulario de <br> Registro
+            </h1>
+
+            <p class="mt-6 text-gray-500 text-lg leading-relaxed">
+                A continuación se muestra un formulario de ejemplo construido
+                completamente con los controles de formulario de HTML. Cada
+                grupo de formulario requerido tiene un estado de validación
+                que puede activarse al intentar enviar el formulario sin
+                completarlo.
+            </p>
+
+        </div>
+
+        <div class="flex-1 flex justify-center items-center">
+
+            <div class="bg-white w-[450px] rounded-2xl shadow-xl p-10">
+
+                <form>
+                    <label class="block font-semibold text-gray-700">
+                        Correo
+                    </label>
+                    <input
+                        type="email"
+                        placeholder="Email address"
+                        class="w-full mt-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                    <label class="block font-semibold text-gray-700 mt-6">
+                        Password
+                    </label>
+                    <input
+                        type="password"
+                        placeholder="Password"
+                        class="w-full mt-2 p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+                    <div class="flex items-center gap-2 mt-6">
+                        <input type="checkbox">
+
+                        <span class="text-gray-700">
+                            Recordarme
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="w-full bg-blue-500 text-white rounded-2xl p-3 mt-6 hover:bg-blue-600 transition">
+                        Registrarse
+                    </button>
+
+                    <p class="text-gray-400 text-center text-sm mt-6">
+                        Al hacer clic en Registrarse, aceptas los términos de uso.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
